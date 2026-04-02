@@ -2,7 +2,7 @@
 function daysOfAYear(year){
 	let num = parseInt(year);
 	//First we check if the mentioned year is a leap year.
-	if(num%400==0 || (num%4==0 && num%100!=0)){
+	if((num%400==0) || (num%4==0 && num%100!=0)){
 		return 366;
 	}
 	else{
